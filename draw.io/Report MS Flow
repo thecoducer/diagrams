@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T17:59:00.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36" etag="4mC4NP7Ak8arUi4RPbFG" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T16:55:58.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36" etag="uWCD2rA1XYls6Yt29PSc" version="20.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-33" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillStyle=auto;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;strokeColor=default;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="110" y="170" width="1380" height="710" as="geometry" />
+        </mxCell>
         <mxCell id="Lt6Cy_P6jHiYWKK2fMfe-1" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;REST Clients&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontStyle=0;labelBorderColor=none;strokeColor=none;glass=0;sketch=0;gradientColor=none;fontSize=15;shadow=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140" y="310" width="190" height="120" as="geometry" />
         </mxCell>
@@ -15,21 +18,6 @@
         </mxCell>
         <mxCell id="LQQi7iO9lTZ28nIIsQ9H-16" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;strokeColor=none;fillColor=#b1ddf0;glass=0;fillStyle=auto;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="200" width="770" height="650" as="geometry" />
-        </mxCell>
-        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-17" value="Report Microservice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=14;fontColor=#000000;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="710" y="220" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-25" value="" style="group;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="720" y="280" width="260" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-20" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontStyle=0;labelBorderColor=none;strokeColor=none;glass=0;sketch=0;fontSize=15;" parent="LQQi7iO9lTZ28nIIsQ9H-25" vertex="1">
-          <mxGeometry width="260" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-21" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Offline Report Request Handler&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;fontStyle=1" parent="LQQi7iO9lTZ28nIIsQ9H-25" vertex="1">
-          <mxGeometry x="25" y="8.88888888888889" width="210" height="26.666666666666668" as="geometry" />
-        </mxCell>
-        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-22" value="1. Create Offline Report Request Entity Object.&lt;br&gt;&lt;br&gt;2. Save it in the database.&lt;br&gt;&lt;br&gt;3. Produce it to Kafka." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;" parent="LQQi7iO9lTZ28nIIsQ9H-25" vertex="1">
-          <mxGeometry x="25" y="44.44444444444445" width="210" height="97.77777777777779" as="geometry" />
         </mxCell>
         <mxCell id="LQQi7iO9lTZ28nIIsQ9H-26" value="" style="curved=1;endArrow=classic;html=1;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#0000FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Lt6Cy_P6jHiYWKK2fMfe-1" target="LQQi7iO9lTZ28nIIsQ9H-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -63,8 +51,50 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-33" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillStyle=auto;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;strokeColor=default;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="110" y="170" width="1380" height="710" as="geometry" />
+        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-17" value="Report Microservice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=14;fontColor=#000000;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="710" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-8" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="260" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-20" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontStyle=0;labelBorderColor=none;strokeColor=none;glass=0;sketch=0;fontSize=15;" parent="2FjxLMXob1c2GS6rFetK-8" vertex="1">
+          <mxGeometry width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LQQi7iO9lTZ28nIIsQ9H-21" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Offline Report Request Handler&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;fontStyle=1" parent="2FjxLMXob1c2GS6rFetK-8" vertex="1">
+          <mxGeometry x="10" y="8.20512820512823" width="210" height="24.615384615384617" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-7" value="&lt;ol style=&quot;font-size: 13px; user-select: auto;&quot;&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Create Offline Report Request Object.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Save it in the database.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Push it to Kafka.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;fillStyle=auto;fontColor=#000000;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;" vertex="1" parent="2FjxLMXob1c2GS6rFetK-8">
+          <mxGeometry y="40.00461538461539" width="200" height="66.46153846153847" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-10" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="220" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-1" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontStyle=0;labelBorderColor=none;strokeColor=none;glass=0;sketch=0;fontSize=15;" vertex="1" parent="2FjxLMXob1c2GS6rFetK-10">
+          <mxGeometry width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-2" value="&lt;span style=&quot;font-size: 13px; user-select: auto;&quot;&gt;Offline Report Request Processor&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="2FjxLMXob1c2GS6rFetK-10">
+          <mxGeometry x="17.5" y="10" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-9" value="&lt;ol style=&quot;user-select: auto;&quot;&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Pull Offline Report Request Object from Kafka.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Compare and validate it with the database.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;If the entry doesn&#39;t exist in the database, do nothing.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Otherwise, submit generate report task to the ExecutorService&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;fillStyle=auto;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;" vertex="1" parent="2FjxLMXob1c2GS6rFetK-10">
+          <mxGeometry y="45" width="248.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-12" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="500" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-13" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontStyle=0;labelBorderColor=none;strokeColor=none;glass=0;sketch=0;fontSize=15;" vertex="1" parent="2FjxLMXob1c2GS6rFetK-12">
+          <mxGeometry width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-14" value="&lt;span style=&quot;font-size: 13px; user-select: auto;&quot;&gt;Offline Report Request Processor&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="2FjxLMXob1c2GS6rFetK-12">
+          <mxGeometry x="17.5" y="10" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-15" value="&lt;ol style=&quot;user-select: auto;&quot;&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Pull Offline Report Request Object from Kafka.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Compare and validate it with the database.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;If the entry doesn&#39;t exist in the database, do nothing.&lt;br style=&quot;user-select: auto;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;user-select: auto;&quot;&gt;Otherwise, submit generate report task to the ExecutorService&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;fillStyle=auto;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;" vertex="1" parent="2FjxLMXob1c2GS6rFetK-12">
+          <mxGeometry y="45" width="248.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2FjxLMXob1c2GS6rFetK-18" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Work Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DWork%2BSans;fontSize=13;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2FjxLMXob1c2GS6rFetK-1" target="2FjxLMXob1c2GS6rFetK-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="500" as="sourcePoint" />
+            <mxPoint x="1310" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
